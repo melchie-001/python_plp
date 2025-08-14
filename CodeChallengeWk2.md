@@ -19,6 +19,12 @@ Write a program that accepts user input to create a list of integers. Then, comp
 - Display the average or maximum value  
 - Allow the user to add numbers until they type "done"
 
+  **Explanation**
+1. input() gets a string from the user.
+2. split() breaks it into a list of strings.
+3. List comprehension [int(num) for num in numbers] converts each string to an integer.
+4. sum() adds them all up.
+
 ---
 
 ## 2. 📚 Tuple of Favorite Books
@@ -35,6 +41,10 @@ Create a tuple containing the names of five of your favorite books. Then, use a 
 - Add numbering to each book  
 - Ask the user to rate each book  
 - Store the tuple in a file for future reference
+  
+**Explanation**  
+1. Tuples are immutable sequences, perfect for fixed collections.  
+2. The for loop iterates through each item and prints it.
 
 ---
 
@@ -52,7 +62,11 @@ Write a program that uses a dictionary to store information about a person, such
 - Add more fields like hobby, location, or favorite food  
 - Format the output as a mini bio  
 - Save the dictionary to a JSON file
-
+  
+**Explanation**   
+1. A dictionary stores key-value pairs.  
+2. We assign user input to specific keys.  
+3. Printing the dictionary shows all stored info.  
 ---
 
 ## 4. 🔗 Set Intersection Finder
@@ -70,6 +84,10 @@ Write a program that accepts user input to create two sets of integers. Then, cr
 - Use set union or difference  
 - Allow repeated comparisons in a loop
 
+**Explanation**  
+1. map(int, ...) converts input strings to integers.  
+2. set() removes duplicates and allows set operations.  
+3. .intersection() finds shared elements.
 ---
 
 ## 5. ✂️ List Comprehension with Word Filter
@@ -87,6 +105,10 @@ Create a program that stores a list of words. Then, use list comprehension to cr
 - Display both the original and filtered lists  
 - Sort the filtered list alphabetically
 
+**Explanation**  
+1. len(word) gets the length.  
+2. % 2 != 0 checks if it's odd.  
+3. List comprehension builds a new list based on the condition.  
 ---
 
 ## 🌟 Bonus Challenge
